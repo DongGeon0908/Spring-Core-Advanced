@@ -24,6 +24,6 @@ public class OrderControllerV4 {
                 return "ok";
             }
         };
-        return template.execute("OrderControllerV1.request()");
+        return template.execute("OrderController.request()");
     }
 }
